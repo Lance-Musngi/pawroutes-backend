@@ -7,7 +7,7 @@ SECRET_KEY = "django-insecure-dev-key"
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.onrender.com', 'pawroutes-backend.onrender.com']
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.onrender.com',
